@@ -1,0 +1,831 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="img/logo.png">
+
+        <!--=============== BOXICONS ===============-->
+        
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="c/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="c/car.css">
+        <link rel="stylesheet" href=" https://scrollrevealjs.org/">
+        <link rel="stylesheet" href="c/review.css">
+        <title>ASCO cars</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    ASCO AUTO SPA.<i class='bx bx-car'></i>
+                </a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>HOME</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">
+                                <i class='bx bx-car'></i>
+                                <span>CARS</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#value" class="nav__link">
+                                <i class='bx bx-award' ></i>
+                                <span>VALUE</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-phone' ></i>
+                                <span>CONTACT</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                 <!--theme change button-->
+                 <i class='bx bxs-moon change-theme' id="theme-button"></i>
+                 <!--<i class='bx bxs-sun change-theme' id="theme-button"></i>-->
+                <a href="#inquiry" class="button nav__button">
+                    INQUIRY
+                </a>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+
+                        <h1 class="home__title">
+                            Discover your<br> Most Suitable <br> cars
+
+                        </h1>
+                        <p class="home__description">
+                            Find a variety of cars that suit your wishes easily, 
+forget all difficulties in finding a convinient car for you
+                        </p>
+                        <form action="" class="home__search">
+                            <i class='bx bxs-map'></i>
+                            <input type="search" placeholder="Kampala Road, Kampala" class="home__search-input">
+                            <button class="button" ><a href="https://maps.app.goo.gl/7UNxTGgfE3NN4Wtr5">find</a></button>
+                        </form>
+                        <div class="home__value">
+                            <div>
+                                <h1 class="home__value-number">
+                                    9K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Premium <br> Product
+                                </span>
+                            </div>
+
+                            <div>
+                                <h1 class="home__value-number">
+                                    2K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Happy <br> Customer
+                                </span>
+                            </div>
+
+                           
+                        </div>
+                    
+                    </div>
+                    <div class="home__images">
+                        <div class="home__orbe"></div>
+
+                        <div class="home__img">
+                            <img src="img/tr1.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <div class="container">
+                    <span class="section__subtitle">
+                        Best Choise
+                    </span>
+                    <h2 class="section__title">
+                        Popular cars 
+                    </h2>
+                    <div class="popular__container swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular1.jpg" alt="" class="popular__img">
+                                
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>17,000
+
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Mercedes Actros Truck
+
+                                    </h3>
+                                    <p class="popular__description">
+                                       
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                
+                                <img src="img/popular2.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>16,000
+
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Meecedes ML350
+
+                                    </h3>
+                                    <p class="popular__description">
+                                        
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular3.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>75,043
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        AUDI Q
+
+                                    </h3>
+                                    <p class="popular__description">
+                                       
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular4.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>17,000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Mercedes Actros Truck
+                                    </h3>
+                                    <p class="popular__description">
+                                       
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular5.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>47,043
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Toyota Hiace Commuter
+                                    </h3>
+                                    <p class="popular__description">
+                                       
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular6.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>20,000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Toyota Corolla
+                                    </h3>
+                                    <p class="popular__description">
+                                      
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular7.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>47,043
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        low Private Gcars
+                                    </h3>
+                                    <p class="popular__description">
+                                        
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular8.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>45,000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Toyota Landcruiser Prado
+                                    </h3>
+                                    <p class="popular__description">
+                                       
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular9.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>45,000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Toyota Landcruiser Prado
+                                    </h3>
+                                    <p class="popular__description">
+                                       
+                                    </p>
+                                </div>
+                            </article>
+
+                          
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular10.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>45,000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Toyota Landcruiser Prado
+                                    </h3>
+                                    <p class="popular__description">
+                                       
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular11.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>11500
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Mitsubishi Canter
+                                    </h3>
+                                    <p class="popular__description">
+                                        Year 1988
+                                        4D33
+                                        
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular12.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>35000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Toyota coaster
+                                    </h3>
+                                    <p class="popular__description">
+                                        2016
+
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="img/popular13.jpg" alt="" class="popular__img">
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>$</span>24000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Toyota Landcruiser Prado
+                                    </h3>
+                                    <p class="popular__description">
+                                        2016 Diesel
+
+                                    </p>
+                                </div>
+                            </article>
+
+                        
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right'></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left'></i>
+                        </div>
+                       
+
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+               <!--==================== review ====================-->
+           <section>
+                 <div class="review-container">
+                   <h1>User Reviews</h1>
+                   <form class="review-form" id="reviewForm">
+                     <label class="review-label" for="userName">Name:</label>
+                     <input class="review-input" type="text" id="userName" name="userName" required></input>
+               
+                     <label class="review-label" for="userReview">Review:</label>
+                     <textarea class="review-textarea" id="userReview" name="userReview" rows="4" required></textarea>
+               
+                     <label class="review-label">Rating:</label>
+                     <div class="star-rating" id="starRating">
+                       <span data-value="1">&#9733;</span>
+                       <span data-value="2">&#9733;</span>
+                       <span data-value="3">&#9733;</span>
+                       <span data-value="4">&#9733;</span>
+                       <span data-value="5">&#9733;</span>
+                     </div>
+                     <input class="review-input" type="hidden" id="ratingValue" name="ratingValue" value="0">
+               
+                     <button class="review-button" type="submit">Submit Review</button>
+                   </form>
+               
+                   <div class="review-list" id="reviewList">
+                     <h2>All Reviews:</h2>
+                     <ul></ul>
+                   </div>
+                 </div>
+           </section>
+                
+              
+               
+            <!--==================== VALUE ====================-->
+            <section class="value section" id="value">
+                <div class="value__container container grid">
+                    <div class="value__images">
+                        <div class="value__orbe"></div>
+
+                        <div class="value__img">
+                            <img src="img/tr.png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="value__content">
+                        <div class="value__data">
+                            <span class="section__subtitle">Our Value</span>
+                            <h2 class="section__title">Value We Give To You<span>.</span></h2>
+                            <p class="value__description">
+                                We are always ready to help by providing the best service for you. 
+We believe a good place to travel with our cars can make your life better.
+                            </p>
+                        </div>
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-shield-x value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                        Best quality verified vehicles
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+                                <div class="value__accordion-content">
+                                    <div class="value__accordion-decription">
+                                      We offer quality assurance during ownership in terms of durability,
+                                      <br>Vehicle reriability and a sense of pride that customers can feel after owning a vehicle.</br>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                           
+                        
+
+                        
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                        Best prices on the market 
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+                                <div class="value__accordion-content">
+                                    <div class="value__accordion-decription">
+                                        We offer some great deals on new and used cars.
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                       
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-check-square value__accordion-icon'></i>
+                                    <h3 class="value__accordion-title">
+                                        Security of your data
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow'></i>
+                                    </div>
+                                </header>
+                                <div class="value__accordion-content">
+                                    <div class="value__accordion-decription">
+                                       The information regarding your purchace is always kept private , And always visible to you.
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"></div>
+                        <div class="contact__img">
+                            <img src="img/l.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <div class="contact__data">
+                            <span class="section__subtitle">Contact Us</span>
+                                <h2 class="section__title">
+                                    Easy to Contact us
+                                </h2>
+                            <p class="contact__description">
+                                Is there a problem finding your dream car? Need a 
+                                  guide in buying first car? or need a consultation 
+                                  on license issues? just contact us.
+
+                            </p>
+                        </div>
+                        <div class="contact__card">
+                           
+                       
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-phone-call'></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Call
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Call us
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropdown-btn">Contact</button>
+                                    <ul class="dropdown-content">
+                                      <li><a href="tel:+256759728391">+256759728391</a></li>
+                                      <li><a href="tel:+256700921401">+256700921401</a></li>
+                                      
+                                    </ul>
+                                  </div>
+                                
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxl-gmail'></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Mail us
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Mail us
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropdown-btn">Mail</button>
+                                    <ul class="dropdown-content">
+                                      
+                                      <li><a href="mailto:info@continentalrides.com?subject=Support%20Request&body=Hello%2C%20I%20need%20help%20with%20your%20service." target="_blank">Send Email</a></li>
+                                      
+                                    </ul>
+                                  </div>
+                                
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxl-whatsapp'></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Chat with us
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Chat now
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropdown-btn">Chat</button>
+                                    <ul class="dropdown-content">
+                                        <li><a href="https://wa.me/+256700921401?text=Hello%20there!" target="_blank">+256700921401</a></li>
+                                           
+                                        <li><a href="https://wa.me/+256759728391?text=Hello%20there!" target="_blank">+256759728391</a></li>
+                                    </ul>
+                                  </div>
+                                
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bx-message-dots'></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Message us
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Send now
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropdown-btn">Send</button>
+                                    <ul class="dropdown-content">
+                                        <li><a href="sms:+256700921401?body=Hello%20there!" target="_self">+256700921401</a></li>
+                                        <li><a href="sms:+256759728391?body=Hello%20there!" target="_self">+256759728391</a></li>
+                                    </ul>
+                                  </div>
+                                
+                            </div>
+
+                </div>
+            </section>
+
+           
+        </main>
+       <!--==================== inquiry ====================-->
+       
+            <h1 id="inquiry">Inquiry</h1>
+            <form target="_blank" class="form-container" action="https://formsubmit.co/info@continentalrides.com" method="POST" >
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="hidden" name="_url" value="https://continentalrides.com/index.html">
+                    <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    
+                   </div>
+                   <div class="col">
+                    <input type="contact" name="number" class="form-control" placeholder="Your number eg:(+256)" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  </div>
+                 </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your inquiry" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <button type="send inquiry" class="btn-block">Submit inquiry</button>
+            </form>
+          
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="" class="footer__logo">
+                        ASCO AUTO SPA.<i class='bx bxs-home-alt-2' ></i>
+                    </a>
+                 <p class="footer__description">
+                    Our vision is to provide cars for all people <br> 
+                    for the best travel experience to live life.
+                 </p>
+
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                              About
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">
+                                    About Us
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">
+                                    Features
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">
+                                    News & Blog
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Company
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">
+                                    How We Work?
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">
+                                    Capital
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">
+                                    Security
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Support
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">
+                                    FAQs
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">
+                                    Support center
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">
+                                    Contact Us
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Follow us
+                        </h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100094350776669"  target="_blank" class="footer__link">
+                                    <i class='bx bxl-facebook-circle' ></i>
+                                    
+                                </a>
+
+                            </li>
+
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank" class="footer__link">
+                                    <i class='bx bxl-instagram-alt' ></i>
+                                    
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="https://x.com/home" target="_blank" class="footer__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                                      </svg>
+                                    
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             <!--==================== LOGOS ====================-->
+            
+             <section class="logos section">
+                <h1 class="logo">OUR PARTNERS</h1>
+            <div class="logos__container container grid">
+               
+                <div class="logos__img">
+                    <img src="img/logo3.png" alt="">
+                </div>
+
+                <div class="logos__img">
+                    <img src="img/logo7.png" alt="">
+                  
+                </div>
+                <div class="logos__img">
+                    <img src="img/logo5.png" alt="">
+                </div> 
+                
+                <div class="logos__img">
+                    <img src="img/logo2.png" alt="">
+                </div>
+                
+                <div class="logos__img">
+                    <img src="img/logo6.png" alt="">
+                </div>
+
+                <div class="logos__img">
+                    <img src="img/logo8.png" alt="">
+                </div>
+
+                <div class="logos__img">
+                    <img src="img/logo1.png" alt="">
+                </div>
+
+                <div class="logos__img">
+                    <img src="img/logo9.png" alt="">
+                </div>
+            </div>
+        </section>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; ASCO auto spa. All rigths reserved
+                   
+                </span>
+                <div class="footer__privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+            <a href="" class="scrollup" id="scroll-up">
+                <i class='bx bx-chevrons-up'></i>
+            </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        
+        <script src="js/scrollreveal.min.js"></script>
+        
+       <script src="js/car1.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="js/car.js"></script>
+        <!--=============== emailJS ===============-->
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src=js/email.js"></script>
+       
+        <script src="js/review.js"></script>
+    </body>
+</html>

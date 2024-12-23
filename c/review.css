@@ -1,0 +1,96 @@
+
+  
+  .review-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background:var(--body-color);
+    border-radius: 8px;
+    box-shadow: 0.2px 2px 5px 0.5px rgb(148, 148, 161);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #092ca0;
+  }
+  
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .review-label {
+    font-weight: bold;
+    color: #092ca0;
+  }
+  
+  .review-input, .review-textarea, .review-button {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px ;
+    border-radius: 5px;
+    width: 100%;
+    background-color:  #aeccec;
+    color: #000;
+  }
+  .review-textarea:hover{
+    background-color: #e6e6e6fa;
+    color: #000000;
+  }
+ 
+  .review-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .review-button:hover {
+    background-color: #092ca0;
+  }
+  
+  .star-rating {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .star-rating span {
+    font-size: 24px;
+    color: #6d6d6d;
+  }
+  
+  .star-rating span:hover,
+  .star-rating span:hover ~ span {
+    color: gold;
+  }
+  
+  .star-rating span.active,
+  .star-rating span.active ~ span {
+    color: gold;
+  }
+  
+  #reviewList {
+    margin-top: 30px;
+  }
+  
+  #reviewList ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  #reviewList li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-rating {
+    color: gold;
+    margin-top: 5px;
+  }
+  
